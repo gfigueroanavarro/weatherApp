@@ -1,0 +1,143 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Weather Dashboard</title>
+  <meta name="description" content="Dashboard">
+  <link rel="stylesheet" href="css/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="css/style.css">
+  <script src="scripts/jquery-3.1.0.min.js"></script>
+    <script src="css/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="css/weather-icons/css/weather-icons.min.css">
+  <script src="scripts/knockout-3.4.0.js"></script>
+  <script type="text/javascript" src="lib/require.js" data-main="lib/main"></script>
+
+
+  
+</head>
+
+<body>
+	<div class="dashboard-content">	
+	    <div class="container">
+	    	<div class="row">
+	    		<div class="col-sm-12" id="header-weather-content">
+	    			<div id="header-weather" class="weather">
+	    				<div class="main-content">
+	    					<div class="content">
+	    						<div class="col-md-3">
+	    						<div class="ui-item">
+							<div class="clearfix">
+								<!-- Icon -->
+								<div class="ui-left">
+									
+									<!-- ko if: weather.icon()!=null -->
+										<i class="wi" data-bind="css: weather.icon()"></i>
+									<!-- /ko -->
+									<!-- ko if: weather.icon() ==null -->
+										<img data-bind="attr: { src: weather.iconUrl()}"></img>
+									<!-- /ko -->
+									<h4 data-bind="text: weather.summary()"></h4>
+								</div>
+								<div class="ui-right">
+									<h2 data-bind="text: weather.date()"></h6>
+									<div class="temp"><span data-bind="text: weather.temperature()"></span></div>
+								</div>
+							</div>
+							<div class="details">
+								<span data-bind="text: weather.minTemperature()"></span>
+								<span>  </span>
+								<span data-bind="text: weather.maxTemperature()"></span>
+							</div>
+						</div>
+	    					</div>
+
+  								<div class="temp"></div>  							
+								<div class="temperature pull-right">
+	    						
+		    					<ul class="list-inline">
+									<li>
+									<div class="api">	
+				    						<select class="form-control selcls" data-bind="options: availableApis(),
+							                       optionsText: 'name',optionsValue: 'code',value: selectedApi,event: { change: onApiChange}" id="apiSelect">			        						
+			        						</select>  
+	    						
+  									</div>
+  									</li>
+  									<li>
+  									<div class="city">	
+				    						<select class="form-control selcls" data-bind="options: availableCities(),
+							                       optionsText: 'name',optionsValue: 'code',value: selectedCity,event: { change: onCityChange}" id="citySelect">			        						
+			        				</select>  
+	    						
+  									</div>
+									</li>
+									<li>
+										<button type="button" class="btn btn-warning btn-circle btn-lg btn-active celsius">C</button>
+									</li>
+				
+									<li>
+										<button type="button" class="btn btn-success btn-circle btn-lg farenheit">F</button>
+									</li>
+				
+								</ul>
+							</div>
+
+	    					</div>
+	    					<div class="icon"></div>
+	    					
+	    				</div>
+	    					<figure style="background-image: url(../css/img/lo.png)"></figure>
+	    				
+	    			</div>
+	    			<div class="days">
+	    				<div class="row row-day">
+							<div class="col-md-3 days-content">
+								<div class="ui-item">
+									<div class="clearfix">
+										<h1 class="header-we">Weather</h1>
+									</div>	
+								</div>
+							</div>
+	    				<!-- ko foreach: { data: weather.days, as: 'day' } -->
+	    					<div class="col-md-3 days-content">
+	    						<div class="ui-item">
+									<div class="clearfix">
+										<!-- Icon -->
+										<div class="ui-left">
+											<!-- ko if: day.icon()!=null -->
+												<i class="wi" data-bind="css: day.icon()">												
+												</i>
+											<!-- /ko -->
+											<!-- ko if: day.icon() ==null -->
+											<img data-bind="attr: { src: day.iconUrl()}">
+												
+											</img>
+											<!-- /ko -->
+											<h4 data-bind="text: day.summary()"></h4>
+										</div>
+										<div class="ui-right">
+											<h6 data-bind="text: day.date()"></h6>											
+										</div>
+									</div>
+									<div class="details">
+										<span data-bind="text: day.minTemperature()"></span>
+										<span>  </span>
+										<span data-bind="text: day.maxTemperature()"></span>
+									</div>
+								</div>
+	    					</div>			
+	    					<!-- /ko -->
+	    				</div>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	
+	</div>
+  
+</body>
+</html>
