@@ -1,0 +1,46 @@
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\WebAppWeather.dll
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\WebAppWeather.pdb
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.Unity.dll
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\Newtonsoft.Json.dll
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\System.Net.Http.Formatting.dll
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\System.Web.Http.dll
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\System.Web.Http.WebHost.dll
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.Unity.xml
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\Newtonsoft.Json.xml
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\System.Net.Http.Formatting.xml
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\System.Web.Http.xml
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\bin\System.Web.Http.WebHost.xml
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\obj\Debug\WebAppWeather.dll
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\obj\Debug\WebAppWeather.pdb
+C:\Users\gery\Documents\Visual Studio 2012\Projects\WebAppWeather\WebAppWeather\obj\Debug\WebAppWeather.csprojResolveAssemblyReference.cache
+C:\WebAppWeather\WebAppWeather\bin\WebAppWeather.dll
+C:\WebAppWeather\WebAppWeather\bin\WebAppWeather.pdb
+C:\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.ServiceLocation.dll
+C:\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.Unity.Configuration.dll
+C:\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.Unity.dll
+C:\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\WebAppWeather\WebAppWeather\bin\Newtonsoft.Json.dll
+C:\WebAppWeather\WebAppWeather\bin\System.Net.Http.Formatting.dll
+C:\WebAppWeather\WebAppWeather\bin\System.Web.Cors.dll
+C:\WebAppWeather\WebAppWeather\bin\System.Web.Http.Cors.dll
+C:\WebAppWeather\WebAppWeather\bin\System.Web.Http.dll
+C:\WebAppWeather\WebAppWeather\bin\System.Web.Http.WebHost.dll
+C:\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.ServiceLocation.xml
+C:\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.Unity.xml
+C:\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.Unity.Configuration.xml
+C:\WebAppWeather\WebAppWeather\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+C:\WebAppWeather\WebAppWeather\bin\Newtonsoft.Json.xml
+C:\WebAppWeather\WebAppWeather\bin\System.Net.Http.Formatting.xml
+C:\WebAppWeather\WebAppWeather\bin\System.Web.Http.xml
+C:\WebAppWeather\WebAppWeather\bin\System.Web.Http.Cors.xml
+C:\WebAppWeather\WebAppWeather\bin\System.Web.Http.WebHost.xml
+C:\WebAppWeather\WebAppWeather\obj\Debug\WebAppWeather.dll
+C:\WebAppWeather\WebAppWeather\obj\Debug\WebAppWeather.pdb
